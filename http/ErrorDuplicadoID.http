@@ -1,0 +1,11 @@
+### Error por ID duplicado
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nombre": "Edwin",
+  "apellido": "Duplicado",
+  "estado": "ACTIVO",
+  "edad": 20
+}

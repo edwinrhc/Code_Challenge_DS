@@ -1,0 +1,11 @@
+### Error por estado inválido
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 98,
+  "nombre": "TestEnum",
+  "apellido": "Error",
+  "estado": "DESCONOCIDO",
+  "edad": 20
+}

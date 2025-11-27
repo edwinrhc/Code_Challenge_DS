@@ -1,0 +1,11 @@
+### Error por campos vacíos
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": null,
+  "nombre": "",
+  "apellido": "",
+  "estado": null,
+  "edad": null
+}

@@ -1,0 +1,11 @@
+### Error por edad inválida
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 99,
+  "nombre": "TestEdad",
+  "apellido": "Incorrecta",
+  "estado": "ACTIVO",
+  "edad": -5
+}

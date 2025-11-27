@@ -1,0 +1,121 @@
+
+## Registro 10 Alumnos
+### 1
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nombre": "Edwin",
+  "apellido": "HC",
+  "estado": "ACTIVO",
+  "edad": 30
+}
+
+### 2
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 2,
+  "nombre": "María",
+  "apellido": "Ramírez",
+  "estado": "INACTIVO",
+  "edad": 25
+}
+
+### 3
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 3,
+  "nombre": "Carlos",
+  "apellido": "Pérez",
+  "estado": "ACTIVO",
+  "edad": 22
+}
+
+### 4
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 4,
+  "nombre": "Lucía",
+  "apellido": "Vargas",
+  "estado": "ACTIVO",
+  "edad": 27
+}
+
+### 5
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 5,
+  "nombre": "Juan",
+  "apellido": "Torres",
+  "estado": "INACTIVO",
+  "edad": 29
+}
+
+### 6
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 6,
+  "nombre": "Ana",
+  "apellido": "Castro",
+  "estado": "ACTIVO",
+  "edad": 20
+}
+
+### 7
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 7,
+  "nombre": "Luis",
+  "apellido": "Gómez",
+  "estado": "INACTIVO",
+  "edad": 24
+}
+
+### 8
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 8,
+  "nombre": "Sofía",
+  "apellido": "Córdoba",
+  "estado": "ACTIVO",
+  "edad": 26
+}
+
+### 9
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 9,
+  "nombre": "Miguel",
+  "apellido": "Fernández",
+  "estado": "ACTIVO",
+  "edad": 31
+}
+
+### 10
+POST http://localhost:8080/alumnos
+Content-Type: application/json
+
+{
+  "id": 10,
+  "nombre": "Camila",
+  "apellido": "Gutiérrez",
+  "estado": "INACTIVO",
+  "edad": 19
+}
